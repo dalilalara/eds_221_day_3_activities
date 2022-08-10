@@ -1,0 +1,16 @@
+---
+title: "Part 2 Real Data"
+author: "Dalila Lara"
+date: "2022-08-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+```{r}
+kling_akchem <- read_csv( data ="2011_Kling_Akchem.csv")
+```
+
